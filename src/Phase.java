@@ -92,4 +92,32 @@ public class Phase {
     public void setProject(Project project) {
         this.project = project;
     }
+    List <Project> phasesInvoicedNotPaid()
+    {
+        return null;
+    }
+    List <Project> phasesInvoicedNotBilled()
+    {
+        return null;
+    }
+    List <Project> phasesPaid()
+    {
+        return null;
+    }
+    Phase updatePhaseStatus(Phase phase)
+    {
+        return null ;
+    }
+    Phase addPhase(Phase phase)
+    {
+        return null;
+    }
+    Phase updatePhase(Phase phase)
+    {
+        return null;
+    }
+    boolean deletePhase(int id)
+    {
+        return false;
+    }
 }

@@ -59,4 +59,16 @@ public class Delivrable {
     public void setAmount(double amount) {
         this.amount = amount;
     }
+    Delivrable addDelivrable(Delivrable delivrable)
+    {
+        return null ;
+    }
+    Delivrable updateDelivrable(Delivrable delivrable)
+    {
+        return null ;
+    }
+    boolean deleteDelivrable(int id)
+    {
+        return false ;
+    }
 }

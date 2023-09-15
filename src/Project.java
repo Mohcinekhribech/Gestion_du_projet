@@ -61,8 +61,23 @@ public class Project {
     public List<Phase> getPhases() {
         return phases;
     }
-
+    List <Project> billedFinshedProject()
+    {
+        return null;
+    }
     public void setPhases(List<Phase> phases) {
         this.phases = phases;
+    }
+    Project updateProject(Project project)
+    {
+        return null ;
+    }
+    List<Project> searchProjects()
+    {
+        return null;
+    }
+    Project addProject(Project project)
+    {
+        return null ;
     }
 }
